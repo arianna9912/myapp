@@ -27,19 +27,19 @@ function Navbar({ onLanguageChange, language }) {
           </div>
         </a>
         <nav className="hidden lg:flex items-center text-lg text-gray-800 uppercase font-sen dark:text-white">
-          <Link to="/portfolio/" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/" className="px-6 py-2 hover:text-purple-500">
             {translations[language].home}
           </Link>
-          <Link to="portfolio/about" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/about" className="px-6 py-2 hover:text-purple-500">
             {translations[language].about}
           </Link>
-          <Link to="portfolio/skills" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/skills" className="px-6 py-2 hover:text-purple-500">
             {translations[language].skills}
           </Link>
-          <Link to="portfolio/experience" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/experience" className="px-6 py-2 hover:text-purple-500">
             {translations[language].experience}
           </Link>
-          <Link to="portfolio/contact" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/contact" className="px-6 py-2 hover:text-purple-500">
             {translations[language].contact}
           </Link>
           <Toggle language={language} onLanguageChange={handleLanguageChange} />
@@ -60,19 +60,19 @@ function Navbar({ onLanguageChange, language }) {
       {isMenuOpen && (
         <div className="container flex flex-col items-center justify-center px-6 mx-auto lg:flex-row">
           <nav className="flex flex-col items-center text-lg text-gray-800 uppercase font-sen dark:text-white">
-            <Link to="/portfolio/" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/" className="px-6 py-2 hover:text-purple-500">
               {translations[language].home}
             </Link>
-            <Link to="portfolio/about" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/about" className="px-6 py-2 hover:text-purple-500">
               {translations[language].about}
             </Link>
-            <Link to="portfolio/skills" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/skills" className="px-6 py-2 hover:text-purple-500">
               {translations[language].skills}
             </Link>
-            <Link to="portfolio/experience" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/experience" className="px-6 py-2 hover:text-purple-500">
               {translations[language].experience}
             </Link>
-            <Link to="portfolio/contact" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/contact" className="px-6 py-2 hover:text-purple-500">
               {translations[language].contact}
             </Link>
             <Toggle language={language} onLanguageChange={handleLanguageChange} />
