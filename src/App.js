@@ -19,7 +19,7 @@ function App() {
       <Navbar language={language} onLanguageChange={handleLanguageChange} />
       <Routes>
         {/* Definir las rutas y los componentes de página */}
-        <Route path="/portfolio" element={<Header language={language} />} />
+        <Route index element={<Header language={language} />} />
         <Route path="/about" element={<AboutMe language={language} />} />
         <Route path="/skills" element={<Skills language={language} />} />
         <Route path="/experience" element={<Experience language={language} />} />

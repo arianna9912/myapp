@@ -27,7 +27,7 @@ function Navbar({ onLanguageChange, language }) {
           </div>
         </a>
         <nav className="hidden lg:flex items-center text-lg text-gray-800 uppercase font-sen dark:text-white">
-          <Link to="/portfolio" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/" className="px-6 py-2 hover:text-purple-500">
             {translations[language].home}
           </Link>
           <Link to="/about" className="px-6 py-2 hover:text-purple-500">
@@ -60,7 +60,7 @@ function Navbar({ onLanguageChange, language }) {
       {isMenuOpen && (
         <div className="container flex flex-col items-center justify-center px-6 mx-auto lg:flex-row">
           <nav className="flex flex-col items-center text-lg text-gray-800 uppercase font-sen dark:text-white">
-            <Link to="/portfolio" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/" className="px-6 py-2 hover:text-purple-500">
               {translations[language].home}
             </Link>
             <Link to="/about" className="px-6 py-2 hover:text-purple-500">
