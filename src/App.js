@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <Navbar language={language} onLanguageChange={handleLanguageChange} />
-      <Header language={language}/>
+     
       <Routes>
         {/* Definir las rutas y los componentes de página */}
         <Route index element={<Header language={language} />} />
