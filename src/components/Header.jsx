@@ -3,6 +3,7 @@ import { FaGithub, FaDownload } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import perfil from '../assets/perfil.jpg';
 
+
 import translations from '../translations/translation.json';
 
 
@@ -70,7 +71,7 @@ const Header = ({language}) => {
                         </h2>
                         <div class="flex items-center justify-center mt-4">
                             <a
-                                href="./CV.pdf"
+                                href="/CV.pdf"
                                 download="Arianna-CV.pdf"
                                 className="bg-purple-700 bg-opacity-50 hover:bg-opacity-30 text-gray-900 font-bold py-2 px-8 rounded flex items-center"
                             >
