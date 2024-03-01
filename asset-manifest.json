@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/myapp/static/js/main.47049241.js",
+    "static/media/image.png": "/myapp/static/media/image.93edf0cb933b4c87377e.png",
+    "static/media/perfil.jpg": "/myapp/static/media/perfil.59690fd002e08e35617c.jpg",
+    "static/media/tailwindcss-mark.svg": "/myapp/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+    "index.html": "/myapp/index.html",
+    "main.47049241.js.map": "/myapp/static/js/main.47049241.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.47049241.js"
+  ]
+}
