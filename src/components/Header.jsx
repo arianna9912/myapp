@@ -71,7 +71,7 @@ const Header = ({language}) => {
                         </h2>
                         <div class="flex items-center justify-center mt-4">
                             <a
-                                href="/portfolio/CV.pdf"
+                                href="/myapp/CV.pdf"
                                 download="Arianna-CV.pdf"
                                 className="bg-purple-700 bg-opacity-50 hover:bg-opacity-30 text-gray-900 font-bold py-2 px-8 rounded flex items-center"
                             >
