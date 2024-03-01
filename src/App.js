@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Home from './components/Home';
 import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
+import Skill from './components/Skill';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import { Routes, Route } from 'react-router-dom';
@@ -20,9 +20,9 @@ function App() {
      
       <Routes>
         {/* Definir las rutas y los componentes de página */}
-        <Route index element={<Header language={language} />} />
+        <Route path="/" element={<Home language={language} />} />
         <Route path="/about" element={<AboutMe language={language} />} />
-        <Route path="/skills" element={<Skills language={language} />} />
+        <Route path="/skill" element={<Skill language={language} />} />
         <Route path="/experience" element={<Experience language={language} />} />
         <Route path="/contact" element={<Contact language={language} />} />
       </Routes>

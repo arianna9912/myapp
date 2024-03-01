@@ -33,7 +33,7 @@ function Navbar({ onLanguageChange, language }) {
           <Link to="/about" className="px-6 py-2 hover:text-purple-500">
             {translations[language].about}
           </Link>
-          <Link to="/skills" className="px-6 py-2 hover:text-purple-500">
+          <Link to="/skill" className="px-6 py-2 hover:text-purple-500">
             {translations[language].skills}
           </Link>
           <Link to="/experience" className="px-6 py-2 hover:text-purple-500">
@@ -66,9 +66,10 @@ function Navbar({ onLanguageChange, language }) {
             <Link to="/about" className="px-6 py-2 hover:text-purple-500">
               {translations[language].about}
             </Link>
-            <Link to="/skills" className="px-6 py-2 hover:text-purple-500">
+            <Link to="/skill" className="px-6 py-2 hover:text-purple-500">
               {translations[language].skills}
             </Link>
+  
             <Link to="/experience" className="px-6 py-2 hover:text-purple-500">
               {translations[language].experience}
             </Link>

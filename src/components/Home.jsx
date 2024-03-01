@@ -8,7 +8,7 @@ import translations from '../translations/translation.json';
 
 
 
-const Header = ({language}) => {
+const Home = ({language}) => {
 
     const [typedText, setTypedText] = useState('');
 
@@ -87,4 +87,4 @@ const Header = ({language}) => {
 
     );
 };
-export default Header;
+export default Home;

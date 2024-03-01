@@ -37,7 +37,19 @@
     "ready":"Ready to Get Started?",
     "send":"Send message",
     "name":"Name",
-    "write":"Write your idea"
+    "write":"Write your idea",
+    "languagetitle":"Languages",
+    "frameworkjs":"Front-End Developer",
+    "backend":"Back-End Developer",
+    "bussiness":"Software Engineer",
+    "diagram":"Business diagram modeling",
+    "agil":"Scrum",
+    "css":"Framework CSS",
+    "base":"Database",
+    "querys":"Querys with SQL",
+    "sqldb":"SQL Database",
+    "tools":"Tools",
+    "progress":"Progress"
   },
   "es": {
     "home": "Inicio",
@@ -76,8 +88,19 @@
     "send":"Enviar mensaje",
     "name":"Nombre",
     "write":"Describe tu idea",
-    "get":"Ponte en contacto"
-
+    "get":"Ponte en contacto",
+    "languagetitle":"Lenguajes",
+    "frameworkjs":"Desarrollo Front-End",
+    "backend":"Desarrollo Backend",
+    "bussiness":"Ingenieria de Software",
+    "diagram":"Modelado del negocio",
+    "agil":" Scrum",
+    "css":"Marco de trabajo CSS",
+    "base":"Base de Datos",
+    "querys":"Consultas con SQL",
+    "sqldb":"Base de Datos SQL ",
+    "tools":"Herramientas",
+    "progress":"Progreso"
     
   }
 }
