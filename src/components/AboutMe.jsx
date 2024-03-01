@@ -10,7 +10,7 @@ const AboutMe = ({language}) => {
             <div className="max-w-6xl  mt-0 flex flex-col  lg:flex-row lg:rounded-xl lg:shadow-2xl overflow-hidden">
 
                 <div className="w-full lg:w-1/2 ">
-                    <img className="w-full object-cover " src={image} alt="Awesome girl-fullstack" />
+                    <img className="w-full object-cover " src={image} alt="Awesome girl" />
                 </div>
 
                 <div className="bg-white p-8 lg:w-1/2 rounded-lg">
