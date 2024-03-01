@@ -11,10 +11,10 @@ import translations from '../translations/translation.json';
 const Header = ({language}) => {
 
     const [typedText, setTypedText] = useState('');
-   
+
 
     useEffect(() => {
-   
+
         const targetText = language === 'en' ? "Hey there!, I'm Arianna Perez" : "¡Hola!, Soy Arianna Pérez";
 
         const displayText = targetText.replace(/&#x27;/g, "'")
@@ -43,11 +43,11 @@ const Header = ({language}) => {
                     <span class="text-7xl ml-4 inline-block animate-bounce">
                         💻
                     </span>
-                    <p> 
-                    {translations[language].got}
+                    <p>
+                        {translations[language].got}
                     </p>
                     <Link to="/contact" className="underline ml-4">
-                    {translations[language].lest}
+                        {translations[language].lest}
                     </Link>
 
                 </div>
@@ -56,7 +56,7 @@ const Header = ({language}) => {
                     </path>
                 </svg>
             </div>
-           
+
             <div class="relative z-20 flex items-center">
                 <div class="container relative flex flex-col items-center justify-between px-6 py-4 mx-auto">
                     <div class="flex flex-col">
@@ -67,7 +67,7 @@ const Header = ({language}) => {
                             </span>
                         </p>
                         <h2 class="max-w-3xl py-2 mx-auto text-5xl font-bold text-center text-gray-800 md:text-6xl dark:text-white">
-                        {translations[language].build}
+                            {translations[language].build}
                         </h2>
                         <div class="flex items-center justify-center mt-4">
                             <a
@@ -77,7 +77,7 @@ const Header = ({language}) => {
                             >
                                 <FaDownload className="mr-2 animate-bounce" />
                                 {language === 'en' ? 'Download CV' : 'Descargar CV'}
-                               
+
                             </a>
                         </div>
                     </div>
