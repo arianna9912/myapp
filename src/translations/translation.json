@@ -49,7 +49,8 @@
     "querys":"Querys with SQL",
     "sqldb":"SQL Database",
     "tools":"Tools",
-    "progress":"Progress"
+    "progress":"Progress",
+    "day":"Monday-Friday"
   },
   "es": {
     "home": "Inicio",
@@ -100,7 +101,8 @@
     "querys":"Consultas con SQL",
     "sqldb":"Base de Datos SQL ",
     "tools":"Herramientas",
-    "progress":"Progreso"
+    "progress":"Progreso",
+    "day":"Luneas - Viernes"
     
   }
 }
